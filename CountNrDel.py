@@ -9,6 +9,5 @@ with open(r"D:\Projects\Python\Х\Очистка порядковых номер
         h=line[(line.find(' ')+1):len(line)]
         l=l+h
 g.write(l)
-f.close()
 g.close()
 
